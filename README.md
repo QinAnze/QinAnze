@@ -1,16 +1,20 @@
-## Hi there 👋
-
-<!--
-**QinAnze/QinAnze** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# About me
+```text
+                                            QinAnze@github
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           ─────────────────────────────
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@          Name       │ Qin Anze
+@@@@@@@@@@@@:         *@@@@. @@@@          a.k.a.     │ Robin
+@@@@@@@@@=     :**=. =@@@:  @@@@@          Location   │ Jiangsu, China
+@@@@@@@@    @@@@@@@@@@@-    @@@@@          Status     │ Undergraduate
+@@@@@@@   @@@@@@@@@@@*      @@@@@          Gender     │ M/X
+@@@@@@   @@@@@@@@@@% .@@@   @@@@@          Focus      │ SynBio | Pharm | AI4Sci
+@@@@@@   @@@@@@@@@ #@@@@@-  *@@@@          Editor     │ VS Code
+@@@@@@   @@@@@@@:@@@@@@@@.  %@@@@          Platform   │ Linux + Windows 11
+@@@@@@-  =@@@@#@@@@@@@@@@   @@@@@          Teacher    │ Claude老师，我还记得你～
+@@@@@@@    @@@@@@@@@@@@%   @@@@@@          What to say│「希君生羽翼，一化北溟鱼。」
+@@@@@@@  .@@@@@@@@@@@+    @@@@@@@
+@@@@@@.:@@@-            @@@@@@@@@
+@@@@@=@@@@@@@@-.   .+@@@@@@@@@@@@
+@@@*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+```
