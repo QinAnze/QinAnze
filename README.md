@@ -8,7 +8,7 @@
 @@@@@@@@    @@@@@@@@@@@-    @@@@@          Status     │ Undergraduate
 @@@@@@@   @@@@@@@@@@@*      @@@@@          Gender     │ M/X !?给给?!
 @@@@@@   @@@@@@@@@@% .@@@   @@@@@          Focus      │ SynBio | Pharm | AI4Sci
-@@@@@@   @@@@@@@@@ #@@@@@-  *@@@@          Editor     │ VS Code
+@@@@@@   @@@@@@@@@ #@@@@@-  *@@@@          Editor     │ VS Code + Zed
 @@@@@@   @@@@@@@:@@@@@@@@.  %@@@@          Platform   │ Linux + Windows 11 // i use arch btw
 @@@@@@-  =@@@@#@@@@@@@@@@   @@@@@          Teacher    │ Claude老师，我还记得你～
 @@@@@@@    @@@@@@@@@@@@%   @@@@@@          What to say│「希君生羽翼，一化北溟鱼。」
