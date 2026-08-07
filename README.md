@@ -57,8 +57,8 @@
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#ffffff', 'primaryTextColor': '#000000', 'primaryBorderColor': '#000000', 'lineColor': '#000000', 'background': '#ffffff', 'mainBkg': '#ffffff', 'borderRadius': 0}}}%%
 flowchart LR
-    classDef default fill:#fff,stroke:#000,stroke-width:3px,color:#000;
-    linkStyle default stroke:#000,stroke-width:3px;
+    classDef default fill:#fff433,stroke:#9b59d0,stroke-width:3px,color:#9b59d0;
+    linkStyle default stroke:#9b59d0,stroke-width:3px;
     A[My Daily]
     A --> B[運動]
     A --> C[探索]
