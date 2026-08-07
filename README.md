@@ -55,34 +55,31 @@
 ## My Life btw
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#ffffff', 'primaryTextColor': '#000000', 'primaryBorderColor': '#000000', 'lineColor': '#000000', 'background': '#ffffff', 'mainBkg': '#ffffff', 'borderRadius': 0}}}%%
-flowchart LR
-    classDef default fill:#fff433,stroke:#9b59d0,stroke-width:3px,color:#9b59d0;
-    linkStyle default stroke:#9b59d0,stroke-width:3px;
-    A[My Daily]
-    A --> B[運動]
-    A --> C[探索]
-    A --> D[音樂]
-    A --> E[電子科技]
-    B --> B1[羽毛球]
-    B --> B2[游泳]
-    B --> B3[騎行]
-    C --> C1[軌道交通]
-    C --> C2[城市CBD]
-    D --> D1[EDM]
-    D --> D2[搖滾]
-    D --> D3[編曲]
-    D --> D4[VOCALOID]
-    D1 --> D1A[Dubstep]
-    D1 --> D1B[Trance]
-    D1 --> D1C[IDM]
-    D2 --> D2A[Progressive Rock]
-    D2 --> D2B[Midwest Emo]
-    D2 --> D2C[Deathcore]
-    E --> E1[電腦裝機與維護]
-    E --> E2[鍵盤客製化]
-    E --> E3[HiFi音頻設備]
-    E --> E4[攝像機]
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#FF4757', 'primaryTextColor': '#fff', 'primaryBorderColor': '#FF4757', 'secondaryColor': '#18DCFF', 'secondaryTextColor': '#fff', 'secondaryBorderColor': '#18DCFF', 'tertiaryColor': '#5352ED', 'tertiaryTextColor': '#fff', 'tertiaryBorderColor': '#5352ED', 'lineColor': '#70A1FF', 'background': 'transparent', 'mainBkg': 'transparent'}}}%%
+mindmap
+  root((My Daily))
+    B[運動]
+      B1[羽毛球]
+      B2[游泳]
+      B3[騎行]
+    C[探索]
+      C1[軌道交通]
+      C2[城市CBD]
+    D[音樂]
+      D1[EDM]
+        D1A[Dubstep]
+        D1B[Trance]
+        D1C[IDM]
+      D2[搖滾]
+        D2A[Progressive Rock]
+        D2B[Midwest Emo]
+        D2C[Deathcore]
+      D3[VOCALOID和編曲]
+    E[電子科技]
+      E1[電腦裝機與維護]
+      E2[鍵盤客製化]
+      E3[HiFi音頻設備]
+      E4[攝像機]
 ```
 
 ---
