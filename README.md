@@ -6,24 +6,22 @@
 <!-- Typing SVG intro -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=600&color=2D6A4F&center=true&vCenter=true&width=560&lines=Hi%2C+I'm+Qin+Anze+%2F+Robin;SynBio+%C3%97+Pharm+%C3%97+AI4Science" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=600&color=3498db&center=true&vCenter=true&width=560&lines=Hi%2C+I'm+Qin+Anze+%2F+Robin;Synthetic+Biology+%C3%97+Pharmacy+%C3%97+AI4Science" alt="Typing SVG" />
   </p>
 
 ---
 
 ## About Me
 
-大家好，我是 Qin Anze（也可以叫我 Robin）。
+大家好，我是 Qin Anze（a.k.a. Robin）。
 
-我是一個常年出沒在江浙沪皖地區的學生，主修方向是合成生物學、藥學與 AI4Science。雖然主業不在計算機，但程式設計對我來說是興趣使然。我高度依賴 AI coding 工具來建構有意義的東西。
-
-目前關注的三個互相交織的領域：合成生物學、藥學、以及 AI4Science。
+我是一個常年出沒在江浙滬皖地區的學生，主修方向是合成生物學、藥學與 AI4Science。雖然主業不在計算機，但程式設計對我來說是興趣。我高度依賴 AI coding 工具來建構有意義的東西。
 
 ---
 
 ## Tech Stack
 
-### Core Languages
+### Core Languages 核心編程語言
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -32,7 +30,7 @@
   <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
 </p>
 
-### Currently Learning
+### Currently Learning 正在學習
 
 <p>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
@@ -40,14 +38,16 @@
   <img src="https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white" />
 </p>
 
-### Workflow
+### Workflow 日常工具鏈
 
 <p>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=vscodium&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" />
+  <img src="https://img.shields.io/badge/Conda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" />
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
 </p>
 
 ---
@@ -57,7 +57,7 @@
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#FF4757', 'primaryTextColor': '#fff', 'primaryBorderColor': '#FF4757', 'secondaryColor': '#18DCFF', 'secondaryTextColor': '#fff', 'secondaryBorderColor': '#18DCFF', 'tertiaryColor': '#5352ED', 'tertiaryTextColor': '#fff', 'tertiaryBorderColor': '#5352ED', 'lineColor': '#70A1FF', 'background': 'transparent', 'mainBkg': 'transparent'}}}%%
 mindmap
-  root((My Daily))
+  root((我的生活))
     B[運動]
       B1[羽毛球]
       B2[游泳]
@@ -74,7 +74,7 @@ mindmap
         D2A[Progressive Rock]
         D2B[Midwest Emo]
         D2C[Deathcore]
-      D3[VOCALOID和編曲]
+      D3[VOCALOID與編曲]
     E[電子科技]
       E1[電腦裝機與維護]
       E2[鍵盤客製化]
@@ -85,6 +85,6 @@ mindmap
 ---
 
 <p align="center">
-  <sub>發自我的的手機</sub><br/>
-  <sub>Last updated: 2026-08-07</sub>
+  <sub>發自我的手機</sub><br/>
+  <sub>Last updated: 2026-08-08</sub>
 </p>
