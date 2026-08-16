@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="./assets/link.jpg" width="100%" alt="banner" />
+  <img src="./assets/link.png" width="100%" alt="banner" />
 </p>
 
 <!-- Typing SVG intro -->
