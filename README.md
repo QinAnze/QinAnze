@@ -109,13 +109,13 @@
   <img src="https://img.shields.io/badge/ROG-FF0033?style=for-the-badge&logo=republicofgamers&logoColor=white" />
   <img src="https://img.shields.io/badge/Lenovo-E60012?style=for-the-badge&logo=lenovo&logoColor=white" />
   <img src="https://img.shields.io/badge/ThinkPad-E60012?style=for-the-badge&logo=thinkpad&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nikon-000000?style=for-the-badge&logo=nikon&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nikon-FFE100?style=for-the-badge&logo=nikon&logoColor=black" />
   <img src="https://img.shields.io/badge/DJI-000000?style=for-the-badge&logo=dji&logoColor=white" />
   <img src="https://img.shields.io/badge/Xiaomi-FF6900?style=for-the-badge&logo=xiaomi&logoColor=white" />
   <img src="https://img.shields.io/badge/Huawei-FF0000?style=for-the-badge&logo=huawei&logoColor=white" />
 </p>
 
-#### Around The World
+#### Transport
 
 <p>
   <img src="https://img.shields.io/badge/CR-FF2600?style=for-the-badge&logo=chinarailway&logoColor=white" />
