@@ -90,31 +90,49 @@
 
 ### Choose life?!
 
-```
-╭──────────────────────────────────────────────────────────────────────╮
-│                                                                      │
-│       ___           ___           ___           ___                  │
-│      /\  \         /\__\         /\  \         /\  \                 │
-│     /::\  \       /::|  |       /::\  \       /::\  \                │
-│    /:/\:\  \     /:|:|  |      /:/\:\  \     /:/\:\  \               │
-│   /:/  \:\  \   /:/|:|  |__   /:/  \:\  \   /::\~\:\  \              │
-│  /:/__/ \:\__\ /:/ |:| /\__\ /:/__/ \:\__\ /:/\:\ \:\__\             │
-│  \:\  \  \/__/ \/__|:|/:/  / \:\  \ /:/  / \/__\:\/:/  /             │
-│   \:\  \           |:/:/  /   \:\  /:/  /       \::/  /              │
-│    \:\  \          |::/  /     \:\/:/  /         \/__/               │
-│     \:\__\         /:/  /       \::/  /                              │
-│      \/__/         \/__/         \/__/                               │
-│                                                                      │
-│  ──────────────────────────────────────────────────────────────────  │
-│                                                                      │
-│  SPORTS       │  Badminton · Swimming · Running · Motorsport         │
-│  TECH         │  PC Build · Server · HiFi · Keyboard · Auto Tuning   │
-│  EXPLORE      │  CBD · Architecture · Photography                    │
-│  TRANSIT      │  High-Speed Railway · Metro                          │
-│  SOCIETY      │  Politics · Economics · History                      │
-│  LANGUAGE     │  Language · Dialects                                 │
-│                                                                      │
-╰──────────────────────────────────────────────────────────────────────╯
+```kotlin
+/**
+ * @author QinAnze
+ * @profile https://github.com/QinAnze
+ */
+
+data class Sports(
+    val hobby_1: String = "Badminton",
+    val hobby_2: String = "Swimming",
+    val hobby_3: String = "Running",
+    val hobby_4: String = "Motorsport"
+)
+
+data class Tech(
+    val hobby_1: String = "PC Build",
+    val hobby_2: String = "Server",
+    val hobby_3: String = "HiFi",
+    val hobby_4: String = "Keyboard",
+    val hobby_5: String = "Auto Tuning"
+)
+
+data class Explore(
+    val hobby_1: String = "CBD",
+    val hobby_2: String = "Architecture",
+    val hobby_3: String = "Photography"
+)
+
+data class Transit(
+    val hobby_1: String = "High‑Speed Railway",
+    val hobby_2: String = "Metro"
+)
+
+data class Society(
+    val hobby_1: String = "Politics",
+    val hobby_2: String = "Economics",
+    val hobby_3: String = "History"
+)
+
+data class Language(
+    val hobby_1: String = "Language",
+    val hobby_2: String = "Dialects"
+)
+
 ```
 
 ### Music btw
