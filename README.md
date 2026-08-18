@@ -75,7 +75,7 @@
   <img src="https://img.shields.io/badge/Jupyter-F37726?style=for-the-badge&logo=jupyter&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
-  <img src="https://img.shields.io/badge/ClaudeCode-CC785C?style=for-the-badge&logo=claude&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude Code-CC785C?style=for-the-badge&logo=claude&logoColor=white" />
   <img src="https://img.shields.io/badge/Trae-C00000?style=for-the-badge&logo=trae&logoColor=white" />
   <img src="https://img.shields.io/badge/Dify-2D7FF9?style=for-the-badge&logo=dify&logoColor=white" />
 </p>
