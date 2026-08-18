@@ -26,11 +26,13 @@
 
 ### Artist Persona
 
-<img src="https://skillicons.dev/icons?i=windows,ableton,ps,pr,ae,blender,unity,discord,twitter&perline=9" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=windows,ableton,ps,pr,ae,blender,unity,discord,twitter&perline=9" />
+</p>
 
 ### Underwater Man
 
-#### Programming Languages
+#### Languages & Frameworks
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -74,6 +76,7 @@
   <img src="https://img.shields.io/badge/Conda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" />
   <img src="https://img.shields.io/badge/Jupyter-F37726?style=for-the-badge&logo=jupyter&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
   <img src="https://img.shields.io/badge/ClaudeCode-CC785C?style=for-the-badge&logo=claude&logoColor=white" />
   <img src="https://img.shields.io/badge/Trae-C00000?style=for-the-badge&logo=trae&logoColor=white" />
   <img src="https://img.shields.io/badge/Dify-2D7FF9?style=for-the-badge&logo=dify&logoColor=white" />
@@ -195,5 +198,5 @@ data class Language(
 
 <p align="center">
   <sub>發自我的手機</sub><br/>
-  <sub>Last updated: 2026-08-17</sub>
+  <sub>Last updated: 2026-08-18</sub>
 </p>
