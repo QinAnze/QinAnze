@@ -26,9 +26,7 @@
 
 ### Artist Persona
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=windows,ableton,ps,pr,ae,blender,unity,discord,twitter&perline=9" />
-</p>
+<img src="https://skillicons.dev/icons?i=windows,ableton,ps,pr,ae,blender,unity,discord,twitter&perline=9" />
 
 ### Underwater Man
 
