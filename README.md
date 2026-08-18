@@ -91,10 +91,6 @@
 ### Choose life?!
 
 ```kotlin
-/**
- * @author QinAnze
- * @profile https://github.com/QinAnze
- */
 
 data class Sports(
     val hobby_1: String = "Badminton",
