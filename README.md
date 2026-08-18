@@ -138,7 +138,7 @@ data class Language(
 ### Music btw
 
 <p align="center">
-  <img src="./assets/music.jpg" width="80%" alt="music" />
+  <img src="./assets/music.jpg" width="100%" alt="music" />
 </p>
 
 ---
