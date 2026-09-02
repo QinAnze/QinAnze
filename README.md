@@ -14,11 +14,10 @@
 
 ## About Me
 
-大家好，我是 Qin Anze（a.k.a. Robin）。
+I am Qin Anze, a.k.a. Robin, an undergraduate in China.
 
-我是一個常年出沒於江浙滬皖地區的學生。目前的「主業」是合成生物學（Synthetic Biology）與 AI4Science，同時也投入生物資訊學（Bioinformatics）與各類組學（Omics）的研究；未來希望能進入製藥（Pharmacy）產業，把實驗室裡的發現真正轉化成臨床與產品價值。
+I used to be an artist, but now I am learning Bioengineering, mainly in SynBio and AI4Sci.In the future, I hope to work on BioPharm and BioInfo.
 
-說實話，我並沒有受過正式的電腦科學（Computer Science）訓練——當初選擇生物，就是因為更想鑽研生命科學本身，而不是去學寫程式。不過，AI 的出現改變了這件事：如今有了 AI Coding 工具的輔助，我能以相對快的速度補上計算機與程式設計的缺口，邊做邊學。某種程度上，這也算圓了小時候想「動手造出東西」的夢。
 
 ---
 
