@@ -45,7 +45,7 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white" />
 </p>
 
-#### AI Tools I Played
+#### AI Tools I Played (Not now)
 
 <p>
   <img src="https://img.shields.io/badge/Torch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
@@ -106,9 +106,7 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Intel-0071C5?style=for-the-badge&logo=intel&logoColor=white" />
   <img src="https://img.shields.io/badge/AMD-ED1C24?style=for-the-badge&logo=amd&logoColor=white" />
-  <img src="https://img.shields.io/badge/ASUS-000000?style=for-the-badge&logo=asus&logoColor=white" />
   <img src="https://img.shields.io/badge/ROG-FF0033?style=for-the-badge&logo=republicofgamers&logoColor=white" />
-  <img src="https://img.shields.io/badge/Lenovo-E60012?style=for-the-badge&logo=lenovo&logoColor=white" />
   <img src="https://img.shields.io/badge/ThinkPad-E60012?style=for-the-badge&logo=thinkpad&logoColor=white" />
   <img src="https://img.shields.io/badge/Nikon-FFE100?style=for-the-badge&logo=nikon&logoColor=black" />
   <img src="https://img.shields.io/badge/DJI-000000?style=for-the-badge&logo=dji&logoColor=white" />
@@ -116,7 +114,7 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://img.shields.io/badge/Huawei-FF0000?style=for-the-badge&logo=huawei&logoColor=white" />
 </p>
 
-#### Transport I Love OR Have One
+#### Transport I Love (OR Have One?)
 
 <p>
   <img src="https://img.shields.io/badge/CR-FF2600?style=for-the-badge&logo=chinarailway&logoColor=white" />
