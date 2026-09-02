@@ -16,8 +16,9 @@
 
 I am Qin Anze, a.k.a. Robin, an undergraduate in China.
 
-I used to be an artist, but now I am learning Bioengineering, mainly in SynBio and AI4Sci.In the future, I hope to work on BioPharm and BioInfo.
+I used to be an artist(maybe), but now I am studying Bioengineering, mainly in SynBio and AI4Sci. In the future, I hope to work on BioPharm and BioInfo.
 
+This account is for personal use. ATTENTION: Contents are highly AI-generated.
 
 ---
 
@@ -29,7 +30,7 @@ I used to be an artist, but now I am learning Bioengineering, mainly in SynBio a
 
 ### Underwater Man
 
-#### Languages & Frameworks
+#### Languages & Frameworks I Played (I only learned some of them btw)
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -44,7 +45,7 @@ I used to be an artist, but now I am learning Bioengineering, mainly in SynBio a
   <img src="https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white" />
 </p>
 
-#### AI Tools
+#### AI Tools I Played
 
 <p>
   <img src="https://img.shields.io/badge/Torch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
@@ -56,7 +57,7 @@ I used to be an artist, but now I am learning Bioengineering, mainly in SynBio a
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
 </p>
 
-#### Dev Tools & Systems
+#### Dev Tools & Systems I Currently Use
 
 <p>
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" />
@@ -79,7 +80,7 @@ I used to be an artist, but now I am learning Bioengineering, mainly in SynBio a
   <img src="https://img.shields.io/badge/Dify-2D7FF9?style=for-the-badge&logo=dify&logoColor=white" />
 </p>
 
-#### Knowledge & Writing Tools
+#### Knowledge & Writing Tools I Always Use
 
 <p>
   <img src="https://img.shields.io/badge/Zotero-CC2936?style=for-the-badge&logo=zotero&logoColor=white" />
@@ -90,7 +91,7 @@ I used to be an artist, but now I am learning Bioengineering, mainly in SynBio a
   <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" />
 </p>
 
-#### LLMs I Use
+#### My SOTA Moonlight
 
 <p>
   <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white" />
@@ -99,7 +100,7 @@ I used to be an artist, but now I am learning Bioengineering, mainly in SynBio a
   <img src="https://img.shields.io/badge/GLM-134CFF?style=for-the-badge&logo=z.ai&logoColor=white" />
 </p>
 
-#### Hardware I Use
+#### Hardware I Played
 
 <p>
   <img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
@@ -115,7 +116,7 @@ I used to be an artist, but now I am learning Bioengineering, mainly in SynBio a
   <img src="https://img.shields.io/badge/Huawei-FF0000?style=for-the-badge&logo=huawei&logoColor=white" />
 </p>
 
-#### Transport I Love & Have
+#### Transport I Love OR Have One
 
 <p>
   <img src="https://img.shields.io/badge/CR-FF2600?style=for-the-badge&logo=chinarailway&logoColor=white" />
@@ -124,13 +125,12 @@ I used to be an artist, but now I am learning Bioengineering, mainly in SynBio a
   <img src="https://img.shields.io/badge/HONGKONG-AF2948?style=for-the-badge&logo=mtr&logoColor=white" />
   <img src="https://img.shields.io/badge/MOSCOW-E30611?style=for-the-badge&logo=moscowmetro&logoColor=white" />
   <img src="https://img.shields.io/badge/Audi-BB0A30?style=for-the-badge&logo=audi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Volkswagen-0073CF?style=for-the-badge&logo=volkswagen&logoColor=white" />
   <img src="https://img.shields.io/badge/BMW-0066B1?style=for-the-badge&logo=bmw&logoColor=white" />
 </p>
 
 ---
 
-## Life & Hobbies
+## Above Codes
 
 ### Choose life?!
 
