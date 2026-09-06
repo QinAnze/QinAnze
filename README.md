@@ -22,13 +22,13 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
 
 ---
 
-## My Chaotic Space
+## Chaotic
 
-### Artist Persona
+### Persona 1
 
-<img src="https://skillicons.dev/icons?i=windows,ableton,ps,pr,ae,blender,discord,twitter&perline=9" />
+<img src="https://skillicons.dev/icons?i=windows,ableton,ps,pr,ae,blender&perline=9" />
 
-### Underwater Man
+### Underwater
 
 #### Languages
 
@@ -40,29 +40,20 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
 </p>
 
-#### AI Tools
-
-<p>
-  <img src="https://img.shields.io/badge/Torch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/Ollama-6099E6?style=for-the-badge&logo=ollama&logoColor=white" />
-</p>
-
-#### Dev
+#### Dev?
 
 <p>
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" />
   <img src="https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=jetbrains&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Arch-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
   <img src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" />
   <img src="https://img.shields.io/badge/HarmonyOS-000000?style=for-the-badge&logo=harmonyos&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=firefox&logoColor=white" />
   <img src="https://img.shields.io/badge/Conda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" />
+  <img src="https://img.shields.io/badge/Torch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Jupyter-F37726?style=for-the-badge&logo=jupyter&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
   <img src="https://img.shields.io/badge/Claude Code-CC785C?style=for-the-badge&logo=claude&logoColor=white" />
-  <img src="https://img.shields.io/badge/Dify-2D7FF9?style=for-the-badge&logo=dify&logoColor=white" />
 </p>
 
 #### Knowledge & Writing
@@ -76,7 +67,7 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" />
 </p>
 
-#### Something
+#### Something MORE
 
 <p>
   <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white" />
@@ -97,9 +88,7 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
 
 ---
 
-## Above Codes
-
-### Choose life?!
+## Life
 
 ```kotlin
 
