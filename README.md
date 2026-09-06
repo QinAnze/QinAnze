@@ -113,11 +113,6 @@ data class Explore(
     val hobby_3: String = "Photography"
 )
 
-data class Transit(
-    val hobby_1: String = "High‑Speed Railway",
-    val hobby_2: String = "Metro"
-)
-
 data class Society(
     val hobby_1: String = "Politics",
     val hobby_2: String = "Economics",
