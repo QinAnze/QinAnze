@@ -71,7 +71,6 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://img.shields.io/badge/Qwen-635BFF?style=for-the-badge&logo=qwen&logoColor=white" />
   <img src="https://img.shields.io/badge/Kimi-000000?style=for-the-badge&logo=kimi&logoColor=white" />
   <img src="https://img.shields.io/badge/GLM-134CFF?style=for-the-badge&logo=z.ai&logoColor=white" />
-  <img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Intel-0071C5?style=for-the-badge&logo=intel&logoColor=white" />
   <img src="https://img.shields.io/badge/AMD-ED1C24?style=for-the-badge&logo=amd&logoColor=white" />
   <img src="https://img.shields.io/badge/CR-FF2600?style=for-the-badge&logo=chinarailway&logoColor=white" />
@@ -86,15 +85,14 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
 
 data class Sports(
     val hobby_1: String = "Badminton",
-    val hobby_2: String = "Swimming",
-    val hobby_3: String = "Running",
-    val hobby_4: String = "Motorsport"
+    val hobby_2: String = "Marathon",
+    val hobby_3: String = "Motorsport"
 )
 
-data class Tech(
-    val hobby_1: String = "PC Build",
-    val hobby_2: String = "Server",
-    val hobby_3: String = "HiFi",
+data class Hobbies(
+    val hobby_1: String = "PC&Server Build",
+    val hobby_2: String = "HiFi",
+    val hobby_3: String = "DJ Mix",
     val hobby_4: String = "Keyboard",
     val hobby_5: String = "Auto Tuning"
 )
@@ -102,18 +100,14 @@ data class Tech(
 data class Explore(
     val hobby_1: String = "CBD",
     val hobby_2: String = "Architecture",
-    val hobby_3: String = "Photography"
+    val hobby_3: String = "Photography",
+    val hobby_4: String = "Metro&Transit"
 )
 
 data class Society(
     val hobby_1: String = "Politics",
-    val hobby_2: String = "Economics",
-    val hobby_3: String = "History"
-)
-
-data class Language(
-    val hobby_1: String = "Language",
-    val hobby_2: String = "Dialects"
+    val hobby_2: String = "Language",
+    val hobby_3: String = "Dialects"
 )
 
 ```
