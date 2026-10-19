@@ -36,7 +36,6 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
   <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
 </p>
 
@@ -48,11 +47,10 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://img.shields.io/badge/Jupyter-F37726?style=for-the-badge&logo=jupyter&logoColor=white" />
   <img src="https://img.shields.io/badge/Arch-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
   <img src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" />
+  <img src="https://img.shields.io/badge/NixOS-3B5487?style=for-the-badge&logo=nixos&logoColor=white" />
   <img src="https://img.shields.io/badge/HarmonyOS-000000?style=for-the-badge&logo=harmonyos&logoColor=white" />
   <img src="https://img.shields.io/badge/Torch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
-  <img src="https://img.shields.io/badge/OpenCode-000000?style=for-the-badge&logo=opencode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Dify-155EEF?style=for-the-badge&logo=dify&logoColor=white" />
 </p>
 
 #### Knowledge & Writing
@@ -76,13 +74,8 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
   <img src="https://img.shields.io/badge/Intel-0071C5?style=for-the-badge&logo=intel&logoColor=white" />
   <img src="https://img.shields.io/badge/AMD-ED1C24?style=for-the-badge&logo=amd&logoColor=white" />
-  <img src="https://img.shields.io/badge/DJI-000000?style=for-the-badge&logo=dji&logoColor=white" />
-  <img src="https://img.shields.io/badge/Xiaomi-FF6900?style=for-the-badge&logo=xiaomi&logoColor=white" />
   <img src="https://img.shields.io/badge/CR-FF2600?style=for-the-badge&logo=chinarailway&logoColor=white" />
   <img src="https://img.shields.io/badge/JR-0A8C0D?style=for-the-badge&logo=jrgroup&logoColor=white" />
-  <img src="https://img.shields.io/badge/SHM-E4002B?style=for-the-badge&logo=shanghaimetro&logoColor=white" />
-  <img src="https://img.shields.io/badge/MTR-AF2948?style=for-the-badge&logo=mtr&logoColor=white" />
-  <img src="https://img.shields.io/badge/MM-E30611?style=for-the-badge&logo=moscowmetro&logoColor=white" />
 </p>
 
 ---
