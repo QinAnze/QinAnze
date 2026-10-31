@@ -33,18 +33,12 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/FLStudio/flstudio2.svg" alt="FL Studio" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Blender/blender1.svg" alt="Blender" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/DaVinciResolve/davinciresolve1.svg" alt="DaVinci Resolve" />
-</p>
-
-<p>
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python3.svg" alt="Python" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/R/r1.svg" alt="R" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSharp/csharp1.svg" alt="C#" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/NodeJS/nodejs1.svg" alt="Node.js" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Qt/qt1.svg" alt="Qt" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Markdown/markdown3.svg" alt="Markdown" />
-</p>
-
-<p>
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode1.svg" alt="VS Code" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/IDEA/idea1.svg" alt="IntelliJ IDEA" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Neovim/neovim1.svg" alt="Neovim" />
@@ -53,24 +47,24 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/THINKPAD-EE2624?style=for-the-badge&logo=thinkpad&logoColor=white" alt="ThinkPad" />
-  <img src="https://img.shields.io/badge/OVERLEAF-35CE8C?style=for-the-badge&logo=overleaf&logoColor=white" alt="Overleaf" />
-  <img src="https://img.shields.io/badge/NIXOS-3B5487?style=for-the-badge&logo=nixos&logoColor=white" alt="NixOS" />
-  <img src="https://img.shields.io/badge/DEEPIN-007CFF?style=for-the-badge&logo=deepin&logoColor=white" alt="deepin" />
+  <img src="https://cdn.simpleicons.org/thinkpad/EE2624" height="30" alt="ThinkPad" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/overleaf/35CE8C" height="30" alt="Overleaf" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nixos/3B5487" height="30" alt="NixOS" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/deepin/007CFF" height="30" alt="deepin" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/CLAUDE-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/DEEPSEEK-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white" alt="DeepSeek" />
-  <img src="https://img.shields.io/badge/QWEN-635BFF?style=for-the-badge&logo=qwen&logoColor=white" alt="Qwen" />
-  <img src="https://img.shields.io/badge/PI-000000?style=for-the-badge&logo=pi&logoColor=white" alt="Pi" />
+  <img src="https://cdn.simpleicons.org/claude/D97757" height="30" alt="Claude" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/pi/000000" height="30" alt="Pi" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/deepseek/4D6BFE" height="30" alt="DeepSeek" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/qwen/635BFF" height="30" alt="Qwen" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/CR-FF2600?style=for-the-badge&logo=chinarailway&logoColor=white" alt="China Railway" />
-  <img src="https://img.shields.io/badge/JR-0A8C0D?style=for-the-badge&logo=jrgroup&logoColor=white" alt="JR Group" />
-  <img src="https://img.shields.io/badge/MTR-AC2E45?style=for-the-badge&logo=mtr&logoColor=white" alt="MTR" />
-  <img src="https://img.shields.io/badge/BMW-0066B1?style=for-the-badge&logo=bmw&logoColor=white" alt="BMW" />
+  <img src="https://cdn.simpleicons.org/chinarailway/FF2600" height="30" alt="China Railway" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/jrgroup/0A8C0D" height="30" alt="JR Group" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/mtr/AC2E45" height="30" alt="MTR" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/bmw/0066B1" height="30" alt="BMW" />
 </p>
 
 ---
