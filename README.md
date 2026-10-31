@@ -47,24 +47,18 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
 </p>
 
 <p>
-  <img src="https://cdn.simpleicons.org/thinkpad/EE2624" height="30" alt="ThinkPad" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/overleaf/35CE8C" height="30" alt="Overleaf" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/nixos/3B5487" height="30" alt="NixOS" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/deepin/007CFF" height="30" alt="deepin" />
-</p>
-
-<p>
-  <img src="https://cdn.simpleicons.org/claude/D97757" height="30" alt="Claude" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/pi/000000" height="30" alt="Pi" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/deepseek/4D6BFE" height="30" alt="DeepSeek" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/qwen/635BFF" height="30" alt="Qwen" />
-</p>
-
-<p>
-  <img src="https://cdn.simpleicons.org/chinarailway/FF2600" height="30" alt="China Railway" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/jrgroup/0A8C0D" height="30" alt="JR Group" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/mtr/AC2E45" height="30" alt="MTR" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/bmw/0066B1" height="30" alt="BMW" />
+  <img src="https://cdn.simpleicons.org/thinkpad/EE2624" height="48" alt="ThinkPad" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/overleaf/35CE8C" height="48" alt="Overleaf" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nixos/3B5487" height="48" alt="NixOS" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/deepin/007CFF" height="48" alt="deepin" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/claude/D97757" height="48" alt="Claude" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/pi/000000" height="48" alt="Pi" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/deepseek/4D6BFE" height="48" alt="DeepSeek" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/qwen/635BFF" height="48" alt="Qwen" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/chinarailway/FF2600" height="48" alt="China Railway" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/jrgroup/0A8C0D" height="48" alt="JR Group" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/mtr/AC2E45" height="48" alt="MTR" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/bmw/0066B1" height="48" alt="BMW" />
 </p>
 
 ---
