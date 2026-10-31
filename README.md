@@ -30,20 +30,25 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Debian/debian1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Arch/arch1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Ableton/ableton3.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/FLStudio/flstudio2.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Blender/blender1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/DaVinciResolve/davinciresolve1.svg"  />
 
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python3.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/R/r1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSharp/csharp1.svg" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/C++/c++1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/NodeJS/nodejs1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Qt/qt1.svg" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Rust/rust1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Markdown/markdown3.svg" />
   
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Neovim/neovim1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/IDEA/idea1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Vercel/vercel1.svg" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Notion/notion3.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Notion/notion1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Firefox/firefox2.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Git/git1.svg" />
+  
 </p>
 
 ---
