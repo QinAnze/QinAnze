@@ -31,7 +31,7 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Arch/arch1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Ableton/ableton3.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Blender/blender1.svg" />
-  <img src=https://ziadoua.github.io/m3-Markdown-Badges/badges/DaVinciResolve/davinciresolve1.svg"  />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/DaVinciResolve/davinciresolve1.svg"  />
 
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python3.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/R/r1.svg" />
