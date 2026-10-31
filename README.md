@@ -36,13 +36,12 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python3.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/R/r1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSharp/csharp1.svg" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/dotNET/dotnet1.svg" />
-  <img src="	https://ziadoua.github.io/m3-Markdown-Badges/badges/C++/c++1.svg" />
-  <img src="	https://ziadoua.github.io/m3-Markdown-Badges/badges/Qt/qt1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/C++/c++1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Qt/qt1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Rust/rust1.svg" />
   
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Neovim/neovim1.svg" />
-  <img src="	https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Vercel/vercel1.svg" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Notion/notion3.svg" />
 </p>
