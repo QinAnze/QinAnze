@@ -114,16 +114,6 @@ data class Society(
 
 ---
 
-## Data
-
-<div align="center">
-
-[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=QinAnze)](https://github.com/stats-organization/github-stats-extended)
-
-</div>
-
----
-
 <p align="center">
   <sub>發自我的手機</sub><br/>
   <sub>Last updated: 2026-08-18</sub>
