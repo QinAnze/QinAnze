@@ -16,101 +16,36 @@
 
 I am Qin Anze, a.k.a. Robin, an undergraduate in China.
 
-I used to be an artist(maybe), but now I am studying Bioengineering, mainly in SynBio and AI4Sci. In the future, I hope to work on BioPharm and BioInfo.
+I am studying Bioengineering, mainly in SynBio and AI4Sci. In the future, I hope to work on BioPharm and BioInfo. I create some artworks by the way.
 
 This account is for personal use. ATTENTION: Contents are highly AI-generated.
 
 ---
 
-## Chaotic
-
-### Persona 1
-
-<img src="https://skillicons.dev/icons?i=windows,ableton,ps,pr,ae,blender&perline=9" />
-
-### Underwater
-
-#### Languages
+## Chaotic Spaces
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Windows/windows1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/macOS/macos1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Debian/debian1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Arch/arch1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Ableton/ableton3.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Blender/blender1.svg" />
+  <img src=https://ziadoua.github.io/m3-Markdown-Badges/badges/DaVinciResolve/davinciresolve1.svg"  />
+
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python3.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/R/r1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSharp/csharp1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/dotNET/dotnet1.svg" />
+  <img src="	https://ziadoua.github.io/m3-Markdown-Badges/badges/C++/c++1.svg" />
+  <img src="	https://ziadoua.github.io/m3-Markdown-Badges/badges/Qt/qt1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Rust/rust1.svg" />
+  
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Neovim/neovim1.svg" />
+  <img src="	https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Vercel/vercel1.svg" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Notion/notion3.svg" />
 </p>
-
-#### Dev?
-
-<p>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" />
-  <img src="https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=jetbrains&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37726?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arch-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white" />
-  <img src="https://img.shields.io/badge/NixOS-3B5487?style=for-the-badge&logo=nixos&logoColor=white" />
-  <img src="https://img.shields.io/badge/HarmonyOS-000000?style=for-the-badge&logo=harmonyos&logoColor=white" />
-  <img src="https://img.shields.io/badge/Torch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
-</p>
-
-#### Knowledge & Writing
-
-<p>
-  <img src="https://img.shields.io/badge/Zotero-CC2936?style=for-the-badge&logo=zotero&logoColor=white" />
-  <img src="https://img.shields.io/badge/Overleaf-35CE8C?style=for-the-badge&logo=overleaf&logoColor=white" />
-  <img src="https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white" />
-  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
-  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
-  <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" />
-</p>
-
-#### Something MORE
-
-<p>
-  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qwen-635BFF?style=for-the-badge&logo=qwen&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kimi-000000?style=for-the-badge&logo=kimi&logoColor=white" />
-  <img src="https://img.shields.io/badge/GLM-134CFF?style=for-the-badge&logo=z.ai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Intel-0071C5?style=for-the-badge&logo=intel&logoColor=white" />
-  <img src="https://img.shields.io/badge/AMD-ED1C24?style=for-the-badge&logo=amd&logoColor=white" />
-  <img src="https://img.shields.io/badge/CR-FF2600?style=for-the-badge&logo=chinarailway&logoColor=white" />
-  <img src="https://img.shields.io/badge/JR-0A8C0D?style=for-the-badge&logo=jrgroup&logoColor=white" />
-</p>
-
----
-
-## Life
-
-```kotlin
-
-data class Sports(
-    val hobby_1: String = "Badminton",
-    val hobby_2: String = "Marathon",
-    val hobby_3: String = "Motorsport"
-)
-
-data class Hobbies(
-    val hobby_1: String = "PC&Server Build",
-    val hobby_2: String = "HiFi",
-    val hobby_3: String = "DJ Mix",
-    val hobby_4: String = "Keyboard",
-    val hobby_5: String = "Auto Tuning"
-)
-
-data class Explore(
-    val hobby_1: String = "CBD",
-    val hobby_2: String = "Architecture",
-    val hobby_3: String = "Photography",
-    val hobby_4: String = "Metro&Transit"
-)
-
-data class Society(
-    val hobby_1: String = "Politics",
-    val hobby_2: String = "Language",
-    val hobby_3: String = "Dialects"
-)
-
-```
 
 ---
 
