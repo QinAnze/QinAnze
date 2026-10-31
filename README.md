@@ -46,7 +46,7 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Notion/notion1.svg" alt="Notion" />
 </p>
 
-<p>
+<p align="center">
   <img src="https://cdn.simpleicons.org/thinkpad/EE2624" height="48" alt="ThinkPad" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/overleaf/35CE8C" height="48" alt="Overleaf" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/nixos/3B5487" height="48" alt="NixOS" />&nbsp;&nbsp;
