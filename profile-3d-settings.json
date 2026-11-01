@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-green-animate.svg",
+  "backgroundColor": "transparent",
+  "foregroundColor": "#6e7681",
+  "strongColor": "#57606a",
+  "weakColor": "gray",
+  "radarColor": "#47a042",
+  "contribColors": ["#efefef", "#d8e887", "#8cc569", "#47a042", "#1d6a23"],
+  "growingAnimation": true
+}
