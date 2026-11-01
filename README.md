@@ -22,6 +22,8 @@ I am Qin Anze, a.k.a. Robin, an undergraduate in China.
 
 I am studying Bioengineering, focusing on SynBio and AI4Sci. In the future, I hope to work on BioPharm and BioInfo. Outside of my biology coursework, I also do some art and design work.
 
+Always happy to talk about interesting ideas, whatever the field — feel free to reach out and share yours.
+
 This account is for personal use. ATTENTION: Contents are highly AI-generated.
 
 </td>
