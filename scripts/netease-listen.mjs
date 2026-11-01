@@ -1,26 +1,90 @@
 #!/usr/bin/env node
-// 网易云「随手一听」卡片：从播放次数最高的一批里随机挑一首 + 每日推荐里随机挑一首
+// 网易云「随手一听」卡片：播放次数最高的一批里随机一首 + 每日推荐里随机一首
+//
+// 数据来源必须是 weapi 加密接口，明文的 /api/v1/play/record 只返回歌曲对象、没有 playCount
 //
 // 环境变量:
 //   NETEASE_UID           账号 uid（数字）
-//   NETEASE_COOKIE        登录 cookie，至少包含 MUSIC_U
+//   NETEASE_COOKIE        登录 cookie，至少包含 MUSIC_U（有 __csrf 更好）
 //   OUT_DIR               输出目录，默认 dist
 //   PREV_HISTORY          上一次 history.json（可选）
 //   NETEASE_RECORD_FILE   调试用：本地 record JSON，不走网络
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import crypto from 'node:crypto';
 
 const UID = process.env.NETEASE_UID?.trim();
 const COOKIE = process.env.NETEASE_COOKIE?.trim();
 const OUT_DIR = process.env.OUT_DIR ?? 'dist';
 const PREV_HISTORY = process.env.PREV_HISTORY ?? '';
 const RECORD_FILE = process.env.NETEASE_RECORD_FILE ?? '';
-const TOP_POOL = 20; // 从播放次数前 20 名里随机挑
+const TOP_POOL = 20;
 const UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
+// 固定常量，来自社区实现 util/crypto.js
+const IV = '0102030405060708';
+const PRESET_KEY = '0CoJUm6Qyw8W8jud';
+const BASE62 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+const PUBLIC_KEY = `-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDgtQn2JZ34ZC28NWYpAUd98iZ37BUrX/aKzmFbt7clFSs6sXqHauqKWqdtLkF2KexO40H1YTX8z2lSgBBOAxLsvaklV8k4cBFK9snQXE9/DDaFt6Rr7iVZMldczhC0JNgTz+SHXT6CBHuX3e9SdB1Ua44oncaTWz7OBGLbCiK45wIDAQAB
+-----END PUBLIC KEY-----`;
+
 const today = new Date().toISOString().slice(0, 10);
+
+function aesCbc(text, key) {
+  const cipher = crypto.createCipheriv('aes-128-cbc', Buffer.from(key), Buffer.from(IV));
+  return Buffer.concat([cipher.update(text, 'utf8'), cipher.final()]).toString('base64');
+}
+
+function rsaNoPadding(str) {
+  // 等价于 node-forge 的 publicKey.encrypt(str, 'NONE')：密钥按 128 字节左补零再裸 RSA
+  const size = 128;
+  const body = Buffer.from(str, 'utf8');
+  const padded = Buffer.concat([Buffer.alloc(size - body.length), body]);
+  return crypto.publicEncrypt({ key: PUBLIC_KEY, padding: crypto.constants.RSA_NO_PADDING }, padded).toString('hex');
+}
+
+function weapi(object) {
+  const text = JSON.stringify(object);
+  let secretKey = '';
+  for (let i = 0; i < 16; i++) secretKey += BASE62[crypto.randomInt(BASE62.length)];
+  return {
+    params: aesCbc(aesCbc(text, PRESET_KEY), secretKey),
+    encSecKey: rsaNoPadding([...secretKey].reverse().join('')),
+  };
+}
+
+function csrfToken() {
+  const m = (COOKIE ?? '').match(/__csrf=([^;]+)/);
+  return m ? m[1] : '';
+}
+
+async function weapiPost(apiPath, data, { cookie = true } = {}) {
+  const { params, encSecKey } = weapi(data);
+  const headers = {
+    'User-Agent': UA,
+    Referer: 'https://music.163.com/',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    Accept: 'application/json',
+  };
+  if (cookie && COOKIE) headers.Cookie = COOKIE;
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), 25000);
+  try {
+    const res = await fetch(`https://music.163.com${apiPath}?csrf_token=${csrfToken()}`, {
+      method: 'POST',
+      headers,
+      body: new URLSearchParams({ params, encSecKey }),
+      signal: ctl.signal,
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status} @ ${apiPath}`);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
 
 function readJson(path, fallback = null) {
   if (!path || !existsSync(path)) return fallback;
@@ -31,24 +95,10 @@ function readJson(path, fallback = null) {
   }
 }
 
-async function request(url, { cookie = false, parse = 'json' } = {}) {
-  const headers = { 'User-Agent': UA, Referer: 'https://music.163.com/' };
-  if (cookie && COOKIE) headers.Cookie = COOKIE;
-  const ctl = new AbortController();
-  const timer = setTimeout(() => ctl.abort(), 20000);
-  try {
-    const res = await fetch(url, { headers, signal: ctl.signal });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return parse === 'json' ? await res.json() : await res.arrayBuffer();
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
 function normalize(item) {
   const song = item.song ?? item;
   const artist = (song.ar ?? song.artists ?? []).map((a) => a.name).join(' / ');
-  const count = Number(item.playCount ?? item.played ?? item.count ?? 0);
+  const count = Number(item.playCount ?? item.played ?? 0);
   return {
     id: song.id,
     name: song.name ?? '(unknown)',
@@ -62,53 +112,25 @@ function normalize(item) {
 async function loadTopSongs() {
   const data = RECORD_FILE
     ? readJson(RECORD_FILE)
-    : await request(`https://music.163.com/api/v1/play/record?uid=${UID}&type=0`, { cookie: true });
+    : await weapiPost('/weapi/v1/play/record', { uid: UID, type: 0 });
   if (!data || data.code !== 200) {
     throw new Error(`听歌排行返回 code=${data?.code} ${data?.msg ?? ''}（cookie 可能已失效或被风控）`);
   }
-
-  let source = 'all';
-  let songs = (data.allData ?? []).filter((x) => x && (x.song ?? x).name).map(normalize);
+  const songs = (data.allData ?? []).filter((x) => x && (x.song ?? x).name).map(normalize);
   if (songs.length === 0) {
-    songs = (data.weekData ?? []).filter((x) => x && (x.song ?? x).name).map(normalize);
-    source = 'week';
-  }
-  if (songs.length === 0) {
-    await diagnose(data);
-    throw new Error('听歌排行为空：cookie 可能不完整，或该账号的听歌排行没有数据');
+    throw new Error('听歌排行为空：该账号没有听歌记录，或「听歌排行」被设为不可见');
   }
   songs.sort((a, b) => b.playCount - a.playCount);
-  return { songs, source };
-}
-
-async function diagnose(recordData) {
-  const first = recordData?.allData?.[0] ?? recordData?.weekData?.[0] ?? null;
-  const song = first?.song ?? first ?? null;
-  console.error(
-    `[diag] record: code=${recordData?.code} keys=${Object.keys(recordData ?? {}).join('|')} ` +
-      `allData=${recordData?.allData ? recordData.allData.length : 'null'} ` +
-      `weekData=${recordData?.weekData ? recordData.weekData.length : 'null'}`,
-  );
-  console.error(
-    `[diag] item keys=${first ? Object.keys(first).join('|') : 'n/a'} song keys=${song ? Object.keys(song).join('|') : 'n/a'}`,
-  );
-  if (RECORD_FILE || !COOKIE) return;
-  try {
-    const acc = await request('https://music.163.com/api/w/nuser/account/get', { cookie: true });
-    const id = acc?.profile?.userId ?? acc?.account?.id ?? 'n/a';
-    console.error(`[diag] cookie belongs to uid=${id} (workflow 里配置的 uid=${UID})`);
-  } catch (err) {
-    console.error(`[diag] account probe failed: ${err.message}`);
-  }
+  return songs;
 }
 
 async function loadRecommend() {
-  const data = await request('https://music.163.com/api/v1/discovery/recommend/songs', { cookie: true });
+  const data = await weapiPost('/weapi/v3/discovery/recommend/songs', {});
   if (!data || data.code !== 200) {
     throw new Error(`每日推荐返回 code=${data?.code} ${data?.msg ?? ''}（cookie 可能已失效或被风控）`);
   }
-  const list = (data.recommend ?? []).map(normalize);
-  if (list.length === 0) throw new Error('每日推荐为空');
+  const list = (data.data?.dailySongs ?? data.recommend ?? []).map(normalize);
+  if (list.length === 0) throw new Error('每日推荐为空：cookie 可能不完整');
   return list;
 }
 
@@ -135,14 +157,18 @@ function clip(str, maxWidth) {
 
 const fmt = (n) => Number(n).toLocaleString('en-US');
 
-// 专辑封面内联成 data URI：SVG 作为 <img> 渲染时无法加载外链图片，只能内嵌
+// 封面必须内联成 data URI：SVG 被当 <img> 渲染时浏览器不允许加载外链图片
 async function fetchCover(url) {
   if (!url) return null;
   const clean = url.replace(/^http:/, 'https:');
   try {
-    const buf = await request(`${clean}?param=120y120`, { parse: 'bin' });
-    if (!buf || buf.byteLength === 0 || buf.byteLength > 80 * 1024) return null;
-    return Buffer.from(buf).toString('base64');
+    const res = await fetch(`${clean}?param=120y120`, {
+      headers: { 'User-Agent': UA, Referer: 'https://music.163.com/' },
+    });
+    if (!res.ok) return null;
+    const buf = Buffer.from(await res.arrayBuffer());
+    if (buf.length === 0 || buf.length > 80 * 1024) return null;
+    return buf.toString('base64');
   } catch {
     return null;
   }
@@ -152,7 +178,9 @@ function renderSong({ song, label, cover, x, y }) {
   const parts = [];
   const size = 52;
   if (cover) {
-    parts.push(`<clipPath id="clip-${song.id}"><rect x="${x}" y="${y}" width="${size}" height="${size}" rx="6"/></clipPath>`);
+    parts.push(
+      `<clipPath id="clip-${song.id}"><rect x="${x}" y="${y}" width="${size}" height="${size}" rx="6"/></clipPath>`,
+    );
     parts.push(
       `<image href="data:image/jpeg;base64,${cover}" x="${x}" y="${y}" width="${size}" height="${size}" preserveAspectRatio="xMidYMid slice" clip-path="url(#clip-${song.id})"/>`,
     );
@@ -163,19 +191,19 @@ function renderSong({ song, label, cover, x, y }) {
     );
   }
   const tx = x + size + 14;
-  parts.push(`<text x="${tx}" y="${y + 16}" font-size="13" font-weight="600" fill="#57606a">${esc(clip(song.name, 34))}</text>`);
+  parts.push(
+    `<text x="${tx}" y="${y + 16}" font-size="13" font-weight="600" fill="#57606a">${esc(clip(song.name, 34))}</text>`,
+  );
   parts.push(`<text x="${tx}" y="${y + 33}" font-size="11" fill="#8b949e">${esc(clip(song.artist, 30))}</text>`);
   parts.push(`<text x="${tx}" y="${y + 48}" font-size="10" fill="#c20c0c">${esc(label)}</text>`);
   return parts.join('\n');
 }
 
-function renderSvg({ topSong, recSong, topCover, recCover, source }) {
+function renderSvg({ topSong, recSong, topCover, recCover }) {
   const W = 380;
   const H = 150;
   const topLabel =
-    topSong.playCount > 0
-      ? `${source === 'week' ? 'MOST PLAYED 7D' : 'MOST PLAYED'} · ${fmt(topSong.playCount)} plays`
-      : 'MOST PLAYED';
+    topSong.playCount > 0 ? `MOST PLAYED · ${fmt(topSong.playCount)} plays` : 'MOST PLAYED';
   return [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif">`,
     `<title>Now listening ${today}</title>`,
@@ -190,34 +218,32 @@ function renderSvg({ topSong, recSong, topCover, recCover, source }) {
 }
 
 async function main() {
+  if (process.env.NETEASE_SELFTEST) {
+    const { params, encSecKey } = weapi({ uid: '1', type: 0 });
+    console.log(`selftest: params=${params.length} chars, encSecKey=${encSecKey.length} hex chars`);
+    return;
+  }
   if (!RECORD_FILE && (!UID || !COOKIE)) throw new Error('缺少环境变量 NETEASE_UID 或 NETEASE_COOKIE');
 
-  const { songs, source } = await loadTopSongs();
-  const topCandidates = songs.slice(0, Math.min(TOP_POOL, songs.length));
-  const topSong = pick(topCandidates);
+  const songs = await loadTopSongs();
+  const topSong = pick(songs.slice(0, Math.min(TOP_POOL, songs.length)));
 
-  const recommend = RECORD_FILE ? [] : await loadRecommend();
   const recSong = RECORD_FILE
     ? { id: 0, name: 'Mock recommendation', artist: 'Mock artist', playCount: 0, picUrl: null }
-    : pick(recommend);
+    : pick(await loadRecommend());
 
   const [topCover, recCover] = await Promise.all([fetchCover(topSong.picUrl), fetchCover(recSong.picUrl)]);
 
   mkdirSync(OUT_DIR, { recursive: true });
-  writeFileSync(
-    join(OUT_DIR, 'latest.svg'),
-    renderSvg({ topSong, recSong, topCover, recCover, source }),
-  );
+  writeFileSync(join(OUT_DIR, 'latest.svg'), renderSvg({ topSong, recSong, topCover, recCover }));
 
   const history = readJson(PREV_HISTORY, []) ?? [];
   if (!history.some((h) => h.date === today)) {
-    history.push({ date: today, top: topSong.name, recommend: recSong.name, source });
+    history.push({ date: today, top: topSong.name, recommend: recSong.name });
   }
   writeFileSync(join(OUT_DIR, 'history.json'), JSON.stringify(history, null, 2));
 
-  console.log(
-    `ok: top="${topSong.name}" (${topSong.playCount}, ${source}) recommend="${recSong.name}" days=${history.length}`,
-  );
+  console.log(`ok: top="${topSong.name}" (${topSong.playCount}) recommend="${recSong.name}" days=${history.length}`);
 }
 
 main().catch((err) => {
