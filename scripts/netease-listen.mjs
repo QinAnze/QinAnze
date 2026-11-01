@@ -48,11 +48,13 @@ async function request(url, { cookie = false, parse = 'json' } = {}) {
 function normalize(item) {
   const song = item.song ?? item;
   const artist = (song.ar ?? song.artists ?? []).map((a) => a.name).join(' / ');
+  const count = Number(item.playCount ?? item.played ?? item.count ?? 0);
   return {
     id: song.id,
     name: song.name ?? '(unknown)',
     artist: artist || '(unknown)',
-    playCount: Number(item.playCount ?? 0),
+    playCount: Number.isFinite(count) ? count : 0,
+    score: Number(item.score ?? 0),
     picUrl: song.al?.picUrl ?? song.album?.picUrl ?? song.picUrl ?? null,
   };
 }
@@ -65,27 +67,30 @@ async function loadTopSongs() {
     throw new Error(`听歌排行返回 code=${data?.code} ${data?.msg ?? ''}（cookie 可能已失效或被风控）`);
   }
 
-  let songs = (data.allData ?? []).map(normalize).filter((s) => s.playCount > 0);
   let source = 'all';
+  let songs = (data.allData ?? []).filter((x) => x && (x.song ?? x).name).map(normalize);
   if (songs.length === 0) {
-    songs = (data.weekData ?? []).map(normalize).filter((s) => s.playCount > 0);
+    songs = (data.weekData ?? []).filter((x) => x && (x.song ?? x).name).map(normalize);
     source = 'week';
   }
   if (songs.length === 0) {
     await diagnose(data);
-    throw new Error(
-      '听歌排行为空：可能是 cookie 与 uid 不是同一个账号、cookie 不完整，或该账号把「听歌排行」设为了仅自己可见',
-    );
+    throw new Error('听歌排行为空：cookie 可能不完整，或该账号的听歌排行没有数据');
   }
   songs.sort((a, b) => b.playCount - a.playCount);
   return { songs, source };
 }
 
 async function diagnose(recordData) {
+  const first = recordData?.allData?.[0] ?? recordData?.weekData?.[0] ?? null;
+  const song = first?.song ?? first ?? null;
   console.error(
     `[diag] record: code=${recordData?.code} keys=${Object.keys(recordData ?? {}).join('|')} ` +
       `allData=${recordData?.allData ? recordData.allData.length : 'null'} ` +
       `weekData=${recordData?.weekData ? recordData.weekData.length : 'null'}`,
+  );
+  console.error(
+    `[diag] item keys=${first ? Object.keys(first).join('|') : 'n/a'} song keys=${song ? Object.keys(song).join('|') : 'n/a'}`,
   );
   if (RECORD_FILE || !COOKIE) return;
   try {
@@ -93,7 +98,7 @@ async function diagnose(recordData) {
     const id = acc?.profile?.userId ?? acc?.account?.id ?? 'n/a';
     console.error(`[diag] cookie belongs to uid=${id} (workflow 里配置的 uid=${UID})`);
   } catch (err) {
-    console.error(`[diag] account probe failed: ${err.message}（cookie 可能已过期）`);
+    console.error(`[diag] account probe failed: ${err.message}`);
   }
 }
 
@@ -168,7 +173,9 @@ function renderSvg({ topSong, recSong, topCover, recCover, source }) {
   const W = 380;
   const H = 150;
   const topLabel =
-    source === 'week' ? `MOST PLAYED 7D · ${fmt(topSong.playCount)} plays` : `MOST PLAYED · ${fmt(topSong.playCount)} plays`;
+    topSong.playCount > 0
+      ? `${source === 'week' ? 'MOST PLAYED 7D' : 'MOST PLAYED'} · ${fmt(topSong.playCount)} plays`
+      : 'MOST PLAYED';
   return [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif">`,
     `<title>Now listening ${today}</title>`,
