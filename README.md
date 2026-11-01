@@ -60,6 +60,8 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudio/visualstudio1.svg" alt="Visual Studio" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/IDEA/idea1.svg" alt="IntelliJ IDEA" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Obsidian/obsidian1.svg" alt="Obsidian" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Notion/notion1.svg" alt="Notion" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Vercel/vercel1.svg" alt="Vercel" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceMIT/licencemit1.svg" alt="MIT Licence" />
 </p>
 
@@ -77,6 +79,8 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://cdn.simpleicons.org/jupyter/F37626" height="48" alt="Jupyter" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/rstudioide/75AADB" height="48" alt="RStudio" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/zotero/CC2936" height="48" alt="Zotero" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/googlescholar/4285F4" height="48" alt="Google Scholar" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/semanticscholar/1857B6" height="48" alt="Semantic Scholar" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/pubmed/326599" height="48" alt="PubMed" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/arxiv/B31B1B" height="48" alt="arXiv" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/elsevier/FF6C00" height="48" alt="Elsevier" />&nbsp;&nbsp;
