@@ -45,7 +45,6 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/WindowsVista/windowsvista1.svg" alt="Windows Vista" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Windows98/windows981.svg" alt="Windows 98" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Ableton/ableton3.svg" alt="Ableton Live" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/FLStudio/flstudio2.svg" alt="FL Studio" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Blender/blender1.svg" alt="Blender" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Photoshop/photoshop1.svg" alt="Photoshop" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Illustrator/illustrator2.svg" alt="Adobe Illustrator" />
@@ -91,6 +90,14 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://cdn.simpleicons.org/qwen/635BFF" height="48" alt="Qwen" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/chinarailway/FF2600" height="48" alt="China Railway" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/jrgroup/0A8C0D" height="48" alt="JR Group" />
+</p>
+
+---
+
+## Listening
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/netease/dist/latest.svg?v=1" width="100%" alt="NetEase listening report" />
 </p>
 
 ---

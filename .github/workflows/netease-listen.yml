@@ -1,0 +1,48 @@
+name: NetEase Listening Report
+
+on:
+  schedule:
+    - cron: "30 16 * * *" # 每天 16:30 UTC / 00:30 北京时间
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: netease-listen
+  cancel-in-progress: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch previous snapshot from data branch
+        run: |
+          mkdir -p prev
+          git fetch --depth=1 origin netease || echo "no netease branch yet (first run)"
+          git show FETCH_HEAD:dist/snapshot.json > prev/snapshot.json 2>/dev/null || true
+          git show FETCH_HEAD:dist/history.json > prev/history.json 2>/dev/null || true
+
+      - name: Generate report
+        env:
+          NETEASE_UID: ${{ vars.NETEASE_UID }}
+          NETEASE_COOKIE: ${{ secrets.NETEASE_COOKIE }}
+          PREV_SNAPSHOT: prev/snapshot.json
+          PREV_HISTORY: prev/history.json
+          OUT_DIR: dist
+        run: node scripts/netease-listen.mjs
+
+      - name: Publish to data branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch --orphan report-tmp
+          git add -f dist
+          git commit -m "chore: update netease listening report"
+          git push --force origin HEAD:netease
