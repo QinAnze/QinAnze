@@ -22,18 +22,16 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch previous snapshot from data branch
+      - name: Fetch previous history from data branch
         run: |
           mkdir -p prev
           git fetch --depth=1 origin netease || echo "no netease branch yet (first run)"
-          git show FETCH_HEAD:dist/snapshot.json > prev/snapshot.json 2>/dev/null || true
           git show FETCH_HEAD:dist/history.json > prev/history.json 2>/dev/null || true
 
       - name: Generate report
         env:
           NETEASE_UID: ${{ vars.NETEASE_UID }}
           NETEASE_COOKIE: ${{ secrets.NETEASE_COOKIE }}
-          PREV_SNAPSHOT: prev/snapshot.json
           PREV_HISTORY: prev/history.json
           OUT_DIR: dist
         run: node scripts/netease-listen.mjs
