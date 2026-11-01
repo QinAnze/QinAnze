@@ -37,13 +37,11 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python3.svg" alt="Python" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/R/r1.svg" alt="R" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSharp/csharp1.svg" alt="C#" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Markdown/markdown3.svg" alt="Markdown" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/NodeJS/nodejs1.svg" alt="Node.js" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Qt/qt1.svg" alt="Qt" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Markdown/markdown3.svg" alt="Markdown" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode1.svg" alt="VS Code" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/IDEA/idea1.svg" alt="IntelliJ IDEA" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github1.svg" alt="GitHub" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Vercel/vercel1.svg" alt="Vercel" />
 </p>
 
 <p align="center">
@@ -54,16 +52,20 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://cdn.simpleicons.org/archlinux/1793D1" height="48" alt="Arch Linux" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/nixos/3B5487" height="48" alt="NixOS" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/deepin/007CFF" height="48" alt="deepin" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/overleaf/35CE8C" height="48" alt="Overleaf" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/latex/008080" height="48" alt="LaTeX" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/overleaf/35CE8C" height="48" alt="Overleaf" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/zotero/CC2936" height="48" alt="Zotero" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/claudecode/D97757" height="48" alt="Claude Code" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/pi/000000" height="48" alt="Pi" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/deepseek/4D6BFE" height="48" alt="DeepSeek" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/qwen/635BFF" height="48" alt="Qwen" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/chinarailway/FF2600" height="48" alt="China Railway" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/jrgroup/0A8C0D" height="48" alt="JR Group" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/mtr/AC2E45" height="48" alt="MTR" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/bmw/0066B1" height="48" alt="BMW" />
+  <img src="https://cdn.simpleicons.org/shanghaimetro/EC1C24" height="48" alt="Shanghai Metro" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/beijingsubway/004A9D" height="48" alt="Beijing Subway" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/guangzhoumetro/C51935" height="48" alt="Guangzhou Metro" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/shenzhenmetro/009943" height="48" alt="Shenzhen Metro" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/mtr/AC2E45" height="48" alt="MTR" />
 </p>
 
 ---
