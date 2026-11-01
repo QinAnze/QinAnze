@@ -52,9 +52,15 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://cdn.simpleicons.org/archlinux/1793D1" height="48" alt="Arch Linux" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/nixos/3B5487" height="48" alt="NixOS" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/deepin/007CFF" height="48" alt="deepin" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/harmonyos/000000" height="48" alt="HarmonyOS" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/latex/008080" height="48" alt="LaTeX" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/overleaf/35CE8C" height="48" alt="Overleaf" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/zotero/CC2936" height="48" alt="Zotero" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="48" alt="Jupyter" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/rstudioide/75AADB" height="48" alt="RStudio" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/pubmed/326599" height="48" alt="PubMed" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/arxiv/B31B1B" height="48" alt="arXiv" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/elsevier/FF6C00" height="48" alt="Elsevier" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/claudecode/D97757" height="48" alt="Claude Code" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/pi/000000" height="48" alt="Pi" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/deepseek/4D6BFE" height="48" alt="DeepSeek" />&nbsp;&nbsp;
