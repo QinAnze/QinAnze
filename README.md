@@ -26,9 +26,6 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
 
 <p>
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Windows/windows1.svg" alt="Windows" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/macOS/macos1.svg" alt="macOS" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Debian/debian1.svg" alt="Debian" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Arch/arch1.svg" alt="Arch Linux" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Ableton/ableton3.svg" alt="Ableton Live" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/FLStudio/flstudio2.svg" alt="FL Studio" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Blender/blender1.svg" alt="Blender" />
@@ -47,11 +44,16 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
 </p>
 
 <p align="center">
+  <img src="https://cdn.simpleicons.org/apple/000000" height="48" alt="Apple" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/thinkpad/EE2624" height="48" alt="ThinkPad" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/overleaf/35CE8C" height="48" alt="Overleaf" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/republicofgamers/FF0029" height="48" alt="Republic of Gamers" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/debian/A81D33" height="48" alt="Debian" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/archlinux/1793D1" height="48" alt="Arch Linux" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/nixos/3B5487" height="48" alt="NixOS" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/deepin/007CFF" height="48" alt="deepin" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/claude/D97757" height="48" alt="Claude" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/overleaf/35CE8C" height="48" alt="Overleaf" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/latex/008080" height="48" alt="LaTeX" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/claudecode/D97757" height="48" alt="Claude Code" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/pi/000000" height="48" alt="Pi" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/deepseek/4D6BFE" height="48" alt="DeepSeek" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/qwen/635BFF" height="48" alt="Qwen" />&nbsp;&nbsp;
