@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/netease/dist/latest.svg?v=4" alt="Now listening" />
+  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/netease/dist/latest.svg?v=5" alt="Now listening" />
 </p>
 
 ---
