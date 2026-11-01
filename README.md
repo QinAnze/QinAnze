@@ -42,6 +42,7 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Qt/qt1.svg" alt="Qt" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode1.svg" alt="VS Code" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/IDEA/idea1.svg" alt="IntelliJ IDEA" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Obsidian/obsidian1.svg" alt="Obsidian" />
 </p>
 
 <p align="center">
