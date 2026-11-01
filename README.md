@@ -33,6 +33,7 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/FLStudio/flstudio2.svg" alt="FL Studio" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Blender/blender1.svg" alt="Blender" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Photoshop/photoshop1.svg" alt="Photoshop" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Illustrator/illustrator2.svg" alt="Adobe Illustrator" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/DaVinciResolve/davinciresolve1.svg" alt="DaVinci Resolve" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python3.svg" alt="Python" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/R/r1.svg" alt="R" />
@@ -40,9 +41,11 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Markdown/markdown3.svg" alt="Markdown" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/NodeJS/nodejs1.svg" alt="Node.js" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Qt/qt1.svg" alt="Qt" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode1.svg" alt="VS Code" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode1.svg" alt="VS Code" 
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudio/visualstudio1.svg" alt="Visual Studio" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/IDEA/idea1.svg" alt="IntelliJ IDEA" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Obsidian/obsidian1.svg" alt="Obsidian" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceMIT/licencemit1.svg" alt="MIT Licence" />
 </p>
 
 <p align="center">
