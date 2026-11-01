@@ -220,9 +220,9 @@ function renderSvg({ topSong, recSong, topCover, recCover }) {
   return [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif">`,
     `<title>Now listening ${today}</title>`,
-    capsule('#d0d7de', 'stroke-width="2.5"'),
+    capsule('#8b949e', 'stroke-width="2.5"'),
     capsule(
-      '#FEF906',
+      '#FF0000',
       `stroke-width="3" stroke-linecap="round" stroke-dasharray="${dash} ${perimeter - dash}"`,
       `<animate attributeName="stroke-dashoffset" values="${perimeter};${perimeter / 2};0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.55 0 0.45 1;0.55 0 0.45 1" dur="6s" repeatCount="indefinite"/>`,
     ),
