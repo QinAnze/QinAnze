@@ -71,12 +71,7 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://cdn.simpleicons.org/deepseek/4D6BFE" height="48" alt="DeepSeek" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/qwen/635BFF" height="48" alt="Qwen" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/chinarailway/FF2600" height="48" alt="China Railway" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/jrgroup/0A8C0D" height="48" alt="JR Group" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/shanghaimetro/EC1C24" height="48" alt="Shanghai Metro" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/beijingsubway/004A9D" height="48" alt="Beijing Subway" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/guangzhoumetro/C51935" height="48" alt="Guangzhou Metro" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/shenzhenmetro/009943" height="48" alt="Shenzhen Metro" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/mtr/AC2E45" height="48" alt="MTR" />
+  <img src="https://cdn.simpleicons.org/jrgroup/0A8C0D" height="48" alt="JR Group" />
 </p>
 
 ---
