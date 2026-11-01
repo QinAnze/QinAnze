@@ -25,7 +25,7 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
 ## 3D Contributions
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/output/profile-3d-contrib/profile-green-animate.svg?v=1" width="100%" alt="3D contribution graph" />
+  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/output/profile-3d-contrib/profile-green-animate.svg?v=2" width="100%" alt="3D contribution graph" />
 </p>
 
 ---
