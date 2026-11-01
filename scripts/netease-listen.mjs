@@ -64,10 +64,37 @@ async function loadTopSongs() {
   if (!data || data.code !== 200) {
     throw new Error(`听歌排行返回 code=${data?.code} ${data?.msg ?? ''}（cookie 可能已失效或被风控）`);
   }
-  const songs = (data.allData ?? []).map(normalize).filter((s) => s.playCount > 0);
-  if (songs.length === 0) throw new Error('allData 为空：cookie 无效，或听歌排行未公开');
+
+  let songs = (data.allData ?? []).map(normalize).filter((s) => s.playCount > 0);
+  let source = 'all';
+  if (songs.length === 0) {
+    songs = (data.weekData ?? []).map(normalize).filter((s) => s.playCount > 0);
+    source = 'week';
+  }
+  if (songs.length === 0) {
+    await diagnose(data);
+    throw new Error(
+      '听歌排行为空：可能是 cookie 与 uid 不是同一个账号、cookie 不完整，或该账号把「听歌排行」设为了仅自己可见',
+    );
+  }
   songs.sort((a, b) => b.playCount - a.playCount);
-  return songs;
+  return { songs, source };
+}
+
+async function diagnose(recordData) {
+  console.error(
+    `[diag] record: code=${recordData?.code} keys=${Object.keys(recordData ?? {}).join('|')} ` +
+      `allData=${recordData?.allData ? recordData.allData.length : 'null'} ` +
+      `weekData=${recordData?.weekData ? recordData.weekData.length : 'null'}`,
+  );
+  if (RECORD_FILE || !COOKIE) return;
+  try {
+    const acc = await request('https://music.163.com/api/w/nuser/account/get', { cookie: true });
+    const id = acc?.profile?.userId ?? acc?.account?.id ?? 'n/a';
+    console.error(`[diag] cookie belongs to uid=${id} (workflow 里配置的 uid=${UID})`);
+  } catch (err) {
+    console.error(`[diag] account probe failed: ${err.message}（cookie 可能已过期）`);
+  }
 }
 
 async function loadRecommend() {
@@ -137,16 +164,18 @@ function renderSong({ song, label, cover, x, y }) {
   return parts.join('\n');
 }
 
-function renderSvg({ topSong, recSong, topCover, recCover }) {
+function renderSvg({ topSong, recSong, topCover, recCover, source }) {
   const W = 380;
   const H = 150;
+  const topLabel =
+    source === 'week' ? `MOST PLAYED 7D · ${fmt(topSong.playCount)} plays` : `MOST PLAYED · ${fmt(topSong.playCount)} plays`;
   return [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif">`,
     `<title>Now listening ${today}</title>`,
     `<text x="0" y="14" font-size="10" letter-spacing="1.2" fill="#8b949e">NOW PLAYING</text>`,
     `<text x="${W}" y="14" font-size="10" fill="#8b949e" text-anchor="end">${today}</text>`,
     `<line x1="0" y1="24" x2="${W}" y2="24" stroke="#8b949e" stroke-opacity="0.35"/>`,
-    renderSong({ song: topSong, label: `MOST PLAYED · ${fmt(topSong.playCount)} plays`, cover: topCover, x: 0, y: 36 }),
+    renderSong({ song: topSong, label: topLabel, cover: topCover, x: 0, y: 36 }),
     `<line x1="0" y1="100" x2="${W}" y2="100" stroke="#8b949e" stroke-opacity="0.2"/>`,
     renderSong({ song: recSong, label: 'DAILY RECOMMENDATION', cover: recCover, x: 0, y: 108 }),
     '</svg>',
@@ -156,7 +185,7 @@ function renderSvg({ topSong, recSong, topCover, recCover }) {
 async function main() {
   if (!RECORD_FILE && (!UID || !COOKIE)) throw new Error('缺少环境变量 NETEASE_UID 或 NETEASE_COOKIE');
 
-  const songs = await loadTopSongs();
+  const { songs, source } = await loadTopSongs();
   const topCandidates = songs.slice(0, Math.min(TOP_POOL, songs.length));
   const topSong = pick(topCandidates);
 
@@ -170,16 +199,18 @@ async function main() {
   mkdirSync(OUT_DIR, { recursive: true });
   writeFileSync(
     join(OUT_DIR, 'latest.svg'),
-    renderSvg({ topSong, recSong, topCover, recCover }),
+    renderSvg({ topSong, recSong, topCover, recCover, source }),
   );
 
   const history = readJson(PREV_HISTORY, []) ?? [];
   if (!history.some((h) => h.date === today)) {
-    history.push({ date: today, top: topSong.name, recommend: recSong.name });
+    history.push({ date: today, top: topSong.name, recommend: recSong.name, source });
   }
   writeFileSync(join(OUT_DIR, 'history.json'), JSON.stringify(history, null, 2));
 
-  console.log(`ok: top="${topSong.name}" (${topSong.playCount}) recommend="${recSong.name}" days=${history.length}`);
+  console.log(
+    `ok: top="${topSong.name}" (${topSong.playCount}, ${source}) recommend="${recSong.name}" days=${history.length}`,
+  );
 }
 
 main().catch((err) => {
