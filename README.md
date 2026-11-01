@@ -14,11 +14,24 @@
 
 ## About Me
 
+<table>
+<tr>
+<td valign="top" width="38%">
+
 I am Qin Anze, a.k.a. Robin, an undergraduate in China.
 
 I am studying Bioengineering, focusing on SynBio and AI4Sci. In the future, I hope to work on BioPharm and BioInfo. Outside of my biology coursework, I also do some art and design work.
 
 This account is for personal use. ATTENTION: Contents are highly AI-generated.
+
+</td>
+<td valign="middle" width="62%">
+
+<img src="https://raw.githubusercontent.com/QinAnze/QinAnze/output/profile-3d-contrib/profile-green-animate.svg?v=2" width="100%" alt="3D contribution graph" />
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -72,14 +85,6 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://cdn.simpleicons.org/qwen/635BFF" height="48" alt="Qwen" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/chinarailway/FF2600" height="48" alt="China Railway" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/jrgroup/0A8C0D" height="48" alt="JR Group" />
-</p>
-
----
-
-## 3D Contributions
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/output/profile-3d-contrib/profile-green-animate.svg?v=2" width="100%" alt="3D contribution graph" />
 </p>
 
 ---
