@@ -6,12 +6,12 @@
 <!-- Typing SVG intro -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=600&color=C83567&center=true&vCenter=true&width=560&lines=Hi%2C+I'm+Qin+Anze+%2F+Robin;SynBio+%C3%97+AI4Sci" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=600&color=FF33FF&center=true&vCenter=true&width=560&lines=Hi%2C+I'm+Qin+Anze+%2F+Robin;SynBio+%C3%97+AI4Sci" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/netease/dist/latest.svg?v=5" alt="Now listening" />
+  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/netease/dist/latest.svg?v=6" alt="Now listening" />
 </p>
 
 ---
