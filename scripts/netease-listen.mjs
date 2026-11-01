@@ -200,19 +200,17 @@ function renderSong({ song, label, cover, x, y }) {
 }
 
 function renderSvg({ topSong, recSong, topCover, recCover }) {
-  const W = 380;
-  const H = 150;
+  const W = 680;
+  const H = 64;
+  const gap = 20;
+  const blockW = (W - gap) / 2;
   const topLabel =
-    topSong.playCount > 0 ? `MOST PLAYED · ${fmt(topSong.playCount)} plays` : 'MOST PLAYED';
+    topSong.playCount > 0 ? `TOP 100 · ${fmt(topSong.playCount)} plays` : 'TOP 100';
   return [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif">`,
     `<title>Now listening ${today}</title>`,
-    `<text x="0" y="14" font-size="10" letter-spacing="1.2" fill="#8b949e">NOW PLAYING</text>`,
-    `<text x="${W}" y="14" font-size="10" fill="#8b949e" text-anchor="end">${today}</text>`,
-    `<line x1="0" y1="24" x2="${W}" y2="24" stroke="#8b949e" stroke-opacity="0.35"/>`,
-    renderSong({ song: topSong, label: topLabel, cover: topCover, x: 0, y: 36 }),
-    `<line x1="0" y1="100" x2="${W}" y2="100" stroke="#8b949e" stroke-opacity="0.2"/>`,
-    renderSong({ song: recSong, label: 'DAILY RECOMMENDATION', cover: recCover, x: 0, y: 108 }),
+    renderSong({ song: recSong, label: 'DAILY RECOMMENDATION', cover: recCover, x: 0, y: 6 }),
+    renderSong({ song: topSong, label: topLabel, cover: topCover, x: blockW + gap, y: 6 }),
     '</svg>',
   ].join('\n');
 }
