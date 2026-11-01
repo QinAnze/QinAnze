@@ -25,10 +25,14 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
 ## Chaotic Spaces
 
 <p>
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Windows/windows1.svg" alt="Windows" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Windows11/windows111.svg" alt="Windows 11" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Windows8dot1/windows8dot12.svg" alt="Windows 8.1" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/WindowsVista/windowsvista1.svg" alt="Windows Vista" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Windows98/windows981.svg" alt="Windows 98" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Ableton/ableton3.svg" alt="Ableton Live" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/FLStudio/flstudio2.svg" alt="FL Studio" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Blender/blender1.svg" alt="Blender" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Photoshop/photoshop1.svg" alt="Photoshop" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/DaVinciResolve/davinciresolve1.svg" alt="DaVinci Resolve" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python3.svg" alt="Python" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/R/r1.svg" alt="R" />
@@ -38,9 +42,8 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Markdown/markdown3.svg" alt="Markdown" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VisualStudioCode/visualstudiocode1.svg" alt="VS Code" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/IDEA/idea1.svg" alt="IntelliJ IDEA" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Neovim/neovim1.svg" alt="Neovim" />
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Github/github1.svg" alt="GitHub" />
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Vercel/vercel1.svg" alt="Vercel" />
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Notion/notion1.svg" alt="Notion" />
 </p>
 
 <p align="center">
