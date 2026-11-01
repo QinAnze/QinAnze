@@ -200,17 +200,34 @@ function renderSong({ song, label, cover, x, y }) {
 }
 
 function renderSvg({ topSong, recSong, topCover, recCover }) {
-  const W = 680;
-  const H = 64;
-  const gap = 20;
-  const blockW = (W - gap) / 2;
-  const topLabel =
-    topSong.playCount > 0 ? `TOP 100 · ${fmt(topSong.playCount)} plays` : 'TOP 100';
+  const W = 700;
+  const H = 84;
+  const pad = 20;
+  const gap = 24;
+  const blockW = (W - pad * 2 - gap) / 2;
+  const rx = H / 2;
+  const w2 = W - 2;
+  const h2 = H - 2;
+  const r2 = rx - 1;
+  // 圆角矩形周长 = 两条直边 + 两个圆弧
+  const perimeter = 2 * (w2 - 2 * r2) + 2 * (h2 - 2 * r2) + 2 * Math.PI * r2;
+  const dash = 130;
+  const topLabel = topSong.playCount > 0 ? `TOP 100 · ${fmt(topSong.playCount)} plays` : 'TOP 100';
+
+  const capsule = (stroke, extra = '', children = '') =>
+    `<rect x="1" y="1" width="${w2}" height="${h2}" rx="${r2}" fill="none" stroke="${stroke}" ${extra}>${children}</rect>`;
+
   return [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif">`,
     `<title>Now listening ${today}</title>`,
-    renderSong({ song: recSong, label: 'DAILY RECOMMENDATION', cover: recCover, x: 0, y: 6 }),
-    renderSong({ song: topSong, label: topLabel, cover: topCover, x: blockW + gap, y: 6 }),
+    capsule('#d0d7de', 'stroke-width="1.5"'),
+    capsule(
+      '#FEF906',
+      `stroke-width="2" stroke-linecap="round" stroke-dasharray="${dash} ${perimeter - dash}"`,
+      `<animate attributeName="stroke-dashoffset" values="${perimeter};${perimeter / 2};0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.55 0 0.45 1;0.55 0 0.45 1" dur="6s" repeatCount="indefinite"/>`,
+    ),
+    renderSong({ song: recSong, label: 'DAILY RECOMMENDATION', cover: recCover, x: pad, y: 16 }),
+    renderSong({ song: topSong, label: topLabel, cover: topCover, x: pad + blockW + gap, y: 16 }),
     '</svg>',
   ].join('\n');
 }
