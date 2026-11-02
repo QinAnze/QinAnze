@@ -29,10 +29,10 @@ const tiers = [
 let acc = 0;
 const fortune = tiers.find((t) => (acc += t.weight) / 100 > rand) ?? tiers.at(-1);
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="156" height="32" viewBox="0 0 156 32" role="img" aria-label="今日签运：${fortune.name}">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="156" height="56" viewBox="0 0 156 56" role="img" aria-label="今日签运：${fortune.name}">
   <title>今日签运：${fortune.name}（${today}）</title>
-  <rect x="1" y="1" width="154" height="30" rx="15" fill="none" stroke="${TEXT}" stroke-width="1.5"/>
-  <text x="78" y="21" text-anchor="middle" fill="${TEXT}" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="600">今日签运：${fortune.name}</text>
+  <rect x="1" y="12" width="154" height="32" rx="16" fill="none" stroke="${TEXT}" stroke-width="1.5"/>
+  <text x="78" y="33" text-anchor="middle" fill="${TEXT}" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="600">今日签运：${fortune.name}</text>
 </svg>
 `;
 

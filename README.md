@@ -4,18 +4,12 @@
 </p>
 
 <!-- Typing SVG intro -->
-<table align="center">
-<tr>
-<td valign="middle">
+<p align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=600&size=30&duration=2500&pause=600&color=FF8C00&center=true&vCenter=true&width=520&height=56&lines=Welcome+to+%E9%AD%9A%E6%B2%A2;I+play+some+AI+here" alt="Typing SVG" />
   </a>
-</td>
-<td valign="middle">
   <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/netease/dist/fortune.svg" alt="今日签运" />
-</td>
-</tr>
-</table>
+</p>
 
 ---
 
