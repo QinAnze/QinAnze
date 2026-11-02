@@ -36,6 +36,11 @@ jobs:
           OUT_DIR: dist
         run: node scripts/netease-listen.mjs
 
+      - name: Generate daily fortune
+        env:
+          OUT_DIR: dist
+        run: node scripts/fortune.mjs
+
       - name: Publish to data branch
         run: |
           git config user.name "github-actions[bot]"

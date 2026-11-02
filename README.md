@@ -10,6 +10,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/netease/dist/fortune.svg" alt="今日签运" />
+</p>
+
 ---
 
 ## About Me
@@ -81,8 +85,8 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://cdn.simpleicons.org/googlescholar/4285F4" height="48" alt="Google Scholar" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/semanticscholar/1857B6" height="48" alt="Semantic Scholar" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/pubmed/326599" height="48" alt="PubMed" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/arxiv/B31B1B" height="48" alt="arXiv" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/elsevier/FF6C00" height="48" alt="Elsevier" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/arxiv/B31B1B" height="48" alt="arXiv" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/deepmind/4285F4" height="48" alt="DeepMind" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/claudecode/D97757" height="48" alt="Claude Code" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/pi/000000" height="48" alt="Pi" />&nbsp;&nbsp;
