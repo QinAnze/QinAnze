@@ -6,12 +6,8 @@
 <!-- Typing SVG intro -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=600&color=FF8C00&center=true&vCenter=true&width=560&lines=Hi%2C+I'm+Qin+Anze+%2F+Robin;SynBio+%C3%97+AI4Sci" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=2500&pause=600&color=FF8C00&center=true&vCenter=true&width=720&height=60&lines=Hi%2C+I'm+Qin+Anze+%2F+Robin;SynBio+%C3%97+AI4Sci" alt="Typing SVG" />
   </a>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/netease/dist/latest.svg?v=8" alt="Now listening" />
 </p>
 
 ---
@@ -94,6 +90,10 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://cdn.simpleicons.org/qwen/635BFF" height="48" alt="Qwen" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/chinarailway/FF2600" height="48" alt="China Railway" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/jrgroup/0A8C0D" height="48" alt="JR Group" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/netease/dist/latest.svg?v=8" alt="Now listening" />
 </p>
 
 ---
