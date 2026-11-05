@@ -24,12 +24,17 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: ./profile-3d-settings.json
 
+      - name: Generate weekly fortune
+        env:
+          OUT_DIR: dist
+        run: node scripts/fortune.mjs
+
       - name: Publish to output branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout --orphan output
           git rm -rf --cached . > /dev/null
-          git add profile-3d-contrib
-          git commit -m "chore: update 3d contributions"
+          git add profile-3d-contrib dist
+          git commit -m "chore: update 3d contributions and fortune"
           git push --force origin output:output

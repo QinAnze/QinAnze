@@ -4,12 +4,7 @@
 </p>
 
 <!-- Typing SVG intro -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=600&size=30&duration=2500&pause=600&color=FF8C00&center=true&vCenter=true&width=520&height=56&lines=Welcome+to+%E9%AD%9A%E6%B2%A2;I+play+some+AI+here" alt="Typing SVG" />
-  </a>
-  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/refs/heads/netease/dist/fortune.svg" alt="今日签运" />
-</p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=600&size=30&duration=2500&pause=600&color=FF8C00&center=true&vCenter=true&width=520&height=56&lines=Welcome+to+%E9%AD%9A%E6%B2%A2;I+play+some+AI+here" alt="Typing SVG" />&nbsp;<img src="https://raw.githubusercontent.com/QinAnze/QinAnze/refs/heads/output/dist/fortune.svg" alt="本周签运" /></p>
 
 ---
 
@@ -91,10 +86,6 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://cdn.simpleicons.org/qwen/635BFF" height="48" alt="Qwen" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/chinarailway/FF2600" height="48" alt="China Railway" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/jrgroup/0A8C0D" height="48" alt="JR Group" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/QinAnze/QinAnze/netease/dist/latest.svg?v=8" alt="Now listening" />
 </p>
 
 ---
