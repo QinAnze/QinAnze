@@ -5,7 +5,7 @@
 
 <!-- Typing SVG intro -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=600&size=22&duration=2500&pause=600&color=FF8C00&center=true&vCenter=true&width=360&height=44&lines=Welcome+to+%E9%AD%9A%E6%B2%A2;I+play+some+AI+here" alt="Typing SVG" />&nbsp;<picture><img src="https://raw.githubusercontent.com/QinAnze/QinAnze/refs/heads/output/dist/fortune.svg" alt="本周签运" /></picture>
+  <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=600&size=28&duration=2500&pause=600&color=40E0D0&center=true&vCenter=true&width=380&height=44&lines=Welcome+to+%E9%AD%9A%E6%B2%A2;I+play+some+AI+here" alt="Typing SVG" />&nbsp;<picture><img src="https://raw.githubusercontent.com/QinAnze/QinAnze/refs/heads/output/dist/fortune.svg" alt="本周签运" /></picture>
 </p>
 
 ---
