@@ -41,8 +41,8 @@ const fortune = tiers.find((t) => (acc += t.weight) / 100 > rand) ?? tiers.at(-1
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="156" height="52" viewBox="0 0 156 52" role="img" aria-label="本周签运：${fortune.name}">
   <title>本周签运：${fortune.name}（${week}）</title>
-  <rect x="1" y="3" width="154" height="32" rx="16" fill="none" stroke="${TEXT}" stroke-width="1.5"/>
-  <text x="78" y="24" text-anchor="middle" fill="${TEXT}" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="600">本周签运：${fortune.name}</text>
+  <rect x="1" y="7" width="154" height="32" rx="16" fill="none" stroke="${TEXT}" stroke-width="1.5"/>
+  <text x="78" y="28" text-anchor="middle" fill="${TEXT}" font-family="'PingFang SC','Noto Sans SC','Microsoft YaHei',sans-serif" font-size="13" font-weight="600">本周签运：${fortune.name}</text>
 </svg>
 `;
 
