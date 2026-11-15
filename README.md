@@ -83,7 +83,6 @@ This account is for personal use. ATTENTION: Contents are highly AI-generated.
   <img src="https://cdn.simpleicons.org/arxiv/B31B1B" height="48" alt="arXiv" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/deepmind/4285F4" height="48" alt="DeepMind" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/claudecode/D97757" height="48" alt="Claude Code" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/pi/000000" height="48" alt="Pi" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/deepseek/4D6BFE" height="48" alt="DeepSeek" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/qwen/635BFF" height="48" alt="Qwen" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/chinarailway/FF2600" height="48" alt="China Railway" />&nbsp;&nbsp;
